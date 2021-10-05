@@ -1,0 +1,22 @@
+public class demo2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入身高：");
+		double a = sc.nextDouble(); // 记录身高
+		System.out.println("请输入体重：");
+		double b = sc.nextDouble(); // 记录体重
+		double c = b / (a * a);
+		System.out.println("您的BMI指数为：" + c);
+		System.out.println("您的体重属于：");
+		if (c < 18.5) {
+			System.out.println("体重过轻");
+		} else if (c >= 18.5 && c < 24.9) {
+			System.out.println("体重正常");
+		} else if (c >= 24.9 && c < 29.9) {
+			System.out.println("体重过轻");
+		} else if (c >= 29.9) {
+			System.out.println("体重肥胖");
+		}
+		sc.close();
+	}
+}
