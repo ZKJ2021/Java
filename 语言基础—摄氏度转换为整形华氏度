@@ -1,0 +1,10 @@
+public class demo2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入要转换为整形的华氏度的度数：");
+		double a = sc.nextDouble(); // 记录控制台的输入的度数
+		double b = 32 + 1.8 * a; // b 为华摄度
+		int c = (int) (b); // 强制转换为整形华氏度
+		System.out.println("转换为整形华氏度为：" + c);
+	}
+}
