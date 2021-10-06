@@ -1,0 +1,13 @@
+public class demo2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入圆柱体的半径：");
+		double a = sc.nextDouble();
+		System.out.println("请输入圆柱体的高：");
+		double b = sc.nextDouble();
+		double π = 3.14;
+		double c = a * a * π * b; // c 为体积
+		System.out.println("圆柱体的体积为：" + c);
+		sc.close();
+	}
+}
