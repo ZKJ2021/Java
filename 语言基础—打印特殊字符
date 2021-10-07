@@ -1,0 +1,19 @@
+
+public class demo2 {
+	public static void main(String[] args) {
+		char c1 = '\\'; 			// 反斜杠转义字符
+		char c2 = '\'';		 	  // 单引号转义字符
+		char c3 = '\"'; 			// 双引号转义字符
+		char c4 = '\u2605'; 		// 十六进制表示的字符
+		char c5 = '\101';	     	// 八进制表示字符
+		char c6 = '\t'; 		   	// 制表符转义字符
+		char c7 = '\n'; 		   	// 换行符转义字符
+		System.out.println("[" + c1 + "]");
+		System.out.println("[" + c2 + "]");
+		System.out.println("[" + c3 + "]");
+		System.out.println("[" + c4 + "]");
+		System.out.println("[" + c5 + "]");
+		System.out.println("[" + c6 + "]");
+		System.out.println("[" + c7 + "]");
+	}
+}
