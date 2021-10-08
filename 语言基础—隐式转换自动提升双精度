@@ -1,0 +1,13 @@
+public class demo2 {
+	public static void main(String[] args) {
+		byte a = 1;
+		int b = 3;
+		float c = 4.22f;
+		char d = 22;
+		double e = 1.23121;
+		System.out.println("byte型与float型数据进行运算结果为：" + (a + c));
+		System.out.println("byte型与int型数据进行运算结果为：" + a * b);
+		System.out.println("byte型与char型数据进行运算结果为：" + a / d);
+		System.out.println("double型与char型数据进行运算结果为：" + (e + d));
+	}
+}
