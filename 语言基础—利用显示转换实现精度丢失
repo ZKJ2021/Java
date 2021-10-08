@@ -1,0 +1,10 @@
+public class demo2 {
+	public static void main(String[] args) {
+		int a = (int) 1.2;
+		long b = (long) 1.3f;
+		char c = (char) 97.14;
+		System.out.println("1.2强制转换成int的结果：" + a);
+		System.out.println("1.3f强制转换成long的结果：" + b);
+		System.out.println("1.4强制转换成char的结果：" + c);
+	}
+}
