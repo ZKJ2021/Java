@@ -1,0 +1,10 @@
+public class demo2 {
+	public static void main(String[] args) {
+		int a, b, c = 11;			// 声明整型变量a、b、c
+		a = 32;						// 将32赋值给变量a
+		c = b = a + 4;				// 将a与4的和赋值给变量b，然后再赋值给变量c
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		System.out.println("c = " + c);
+	}
+}
