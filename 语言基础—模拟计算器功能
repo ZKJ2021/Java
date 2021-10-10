@@ -1,0 +1,14 @@
+public class demo2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); // 创建扫描器，获取控制台输入的值
+		System.out.println("请输入两个数字，用空格隔开(a b)："); // 输出提示
+		double a = sc.nextDouble(); // 记录输入的第一个数字
+		double b = sc.nextDouble(); // 记录输入的第二个数字
+		System.out.println("a+a的和为：" + (a + b)); // 计算和
+		System.out.println("a-b的差为：" + (a - b)); // 计算差
+		System.out.println("a*b的积为：" + (a * b)); // 计算积
+		System.out.println("a/b的商为：" + (a / b)); // 计算商
+		System.out.println("a%b的余数为：" + (a % b)); // 计算余数
+		sc.close();// 关闭扫描器
+	}
+}
