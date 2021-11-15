@@ -1,0 +1,15 @@
+public class demo2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); // 创建扫描器，获取控制台输入的值
+		System.out.println("请输入两个整数，用空格隔开(num1 num2)："); // 输出提示
+		int num1 = sc.nextInt(); // 记录输入的第一个数字
+		int num2 = sc.nextInt(); // 记录输入的第二个数字
+		System.out.println("num1<num2的结果：" + (num1 < num2)); // 输出“小于”的结果
+		System.out.println("num1>num2的结果：" + (num1 > num2)); // 输出“大于”的结果
+		System.out.println("num1==num2的结果：" + (num1 == num2)); // 输出“等于”的结果
+		System.out.println("num1!=num2的结果：" + (num1 != num2)); // 输出“不等于”的结果
+		System.out.println("num1<=num2的结果：" + (num1 <= num2)); // 输出“小于等于”的结果
+		System.out.println("num1>=num2的结果：" + (num1 >= num2)); // 输出“大于等于”的结果
+		sc.close();// 关闭扫描器
+	}
+}
