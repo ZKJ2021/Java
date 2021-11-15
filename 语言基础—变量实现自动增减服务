@@ -1,0 +1,14 @@
+public class demo2 {
+	public static void main(String[] args) {
+		int a = 1;							// 创建整型变量a,初始值为1
+		System.out.println("a = " + a);		// 输出此时a的值
+		a++;									// a自增1
+		System.out.println("a++ = " + a);		// 输出此时a的值
+		a++;									// a自增1
+		System.out.println("a++ = " + a);		// 输出此时a的值
+		a++;									// a自增1
+		System.out.println("a++ = " + a);		// 输出此时a的值
+		a--;									// a自减1
+		System.out.println("a-- = " + a);		// 输出此时a的值
+	}
+}
